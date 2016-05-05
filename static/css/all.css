@@ -1,0 +1,43 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#image {
+    width:40%;
+    float:right;
+}
+
+#jokes {
+    width: 60%;
+    align:left;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+body {
+    background-color:  #bea4c7;
+}
+
+ h3 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #ececec
+}
+
+#footer {
+    background-color:#e15272;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
