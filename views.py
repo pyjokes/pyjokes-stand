@@ -6,8 +6,9 @@ app = Flask(__name__)
 @app.route('/', methods= ['GET'])
 def index():
     return render_template('index.html',
-                           basque   =   pyjokes.get_joke(language="en"),
-                           spanish  =   pyjokes.get_joke(language="es"))
+                           basque   =   pyjokes.get_joke(language="eu"),
+                           spanish  =   pyjokes.get_joke(language="es"),
+                           english  =   pyjokes.get_joke(language="en"))
 
 
 if __name__ == '__main__':
