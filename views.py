@@ -10,6 +10,7 @@ def index() -> None:
         "index.html",
         basque=pyjokes.get_joke(language="eu"),
         spanish=pyjokes.get_joke(language="es"),
+        deutsch=pyjokes.get_joke(language="de"),
         english=pyjokes.get_joke(language="en"),
     )
 
