@@ -1,3 +1,4 @@
+"""A module provides API to work with services."""
 from abc import ABC, abstractmethod
 from typing import Sequence
 from lib.applications import pyjokes_app
@@ -22,6 +23,7 @@ class PyJoker(Service):
         self._server_config: ServerConfig = server_config
 
     def start(self) -> None:
+        """Starts py-joker service."""
         pyjokes_app.run(
             host=self._server_config.host, port=self._server_config.port, debug=self._server_config.allow_debug
         )
