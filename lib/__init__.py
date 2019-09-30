@@ -1,1 +1,1 @@
-from lib.views import home
+from lib.views import home  # noqa: F401
