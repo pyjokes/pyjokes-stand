@@ -15,6 +15,7 @@ class LanguageCodeError(Exception):
 @dataclass(frozen=True)
 class _Folder:
     """Represents setup folder."""
+
     static: str = f"{_SOURCE_DIR}/static/"
     templates: str = f"{_SOURCE_DIR}/templates/"
 
@@ -22,6 +23,7 @@ class _Folder:
 @dataclass(frozen=True)
 class ServerConfig:
     """Represents setup configuration."""
+
     name: str = __name__
     host: str = "0.0.0.0"
     port: int = 4444
@@ -31,6 +33,7 @@ class ServerConfig:
 
 class Language(Enum):
     """Represents language enumeration."""
+
     SPANISH: str = "es"
     DEUTSCH: str = "de"
     ENGLISH: str = "en"
