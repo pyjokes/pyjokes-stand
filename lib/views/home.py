@@ -6,7 +6,7 @@ from lib.setup import Language
 
 
 @pyjokes_app.route("/", methods=["GET"])
-def index() -> None:
+def index() -> str:
     """Sets route for index page."""
     return render_template(
         "index.html",
