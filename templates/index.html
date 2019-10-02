@@ -3,23 +3,21 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="static/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
 
 </head>
-
-
 
 
 <body bgcolor="" >
 
 <div id="image">
-    <img src="static/img/pyjokes.png"></img>
+    <img src="img/pyjokes.png"></img>
 </div>
 
 <div id="jokes">
-   <p>[EUSKARAZ]</p> <h3>{{ basque }} </h3><br>
-   <p>[CASTELLANO]</p> <h3> {{ spanish }} </h3> <br>
-   <p>[ENGLISH]</p> <h3> {{ english }} </h3> <br>
+    <p>[CASTELLANO]</p> <h3> {{ spanish }} </h3> <br>
+    <p>[DEUTSCH]</p> <h3> {{ deutsch }} </h3> <br>
+    <p>[ENGLISH]</p> <h3> {{ english }} </h3> <br>
 </div>
 
 <br>
@@ -33,18 +31,18 @@
 
 
 <script type="text/javascript">
-     var time = new Date().getTime();
+     let currentTime = new Date().getTime();
+     let timeToRefresh = 15000;
+     let timeOut = 1000;
 
      function refresh() {
-         if(new Date().getTime() - time >= 15000)
+         if(new Date().getTime() - currentTime >= timeToRefresh)
              window.location.reload(true);
          else
-             setTimeout(refresh, 1000);
+             setTimeout(refresh, timeOut);
      }
-
-     setTimeout(refresh, 1000);
+     setTimeout(refresh, timeOut);
 </script>
-
 
 </html>
 
