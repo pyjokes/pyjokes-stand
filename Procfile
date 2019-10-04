@@ -1,0 +1,1 @@
+web: gunicorn joker:pyjokes_app
