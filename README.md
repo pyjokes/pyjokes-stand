@@ -16,12 +16,8 @@
 > - `heroku`
 
 ## Table of contents
-- [Run application](#run-application)
-- [Demo](#demo)
-- [Run static code analysis](#run-static-code-analysis)
-- [Heroku deployment](#heroku-deployment)
-- [Contributing](#contributing)
-
+- [Usage](#usage)
+- [Development notes](#development-notes)
 
 ### Usage
 Run script from the root directory of the project:
@@ -29,18 +25,18 @@ Run script from the root directory of the project:
 python joker.py
 ```
 
-### Demo
+**Demo**
 ![Screenshot](static/img/demo.png)
 
-### Run static code analysis
+### Development notes
+
+#### Run static code analysis
 In general static code analysis consists of following tools: `black`, `flake8`, `pylint`, `mypy`, `pydocstyle` and `unittests` (using `pytest`) accordingly.
 To be able to start static code analysis _locally_ please run following script from the root directory of the project:
 ```bash
 ./run-code-assessment.sh install-dependencies
 ```
 Anyway it will be run via CI automatically after every change was made to the repo via Travis CI.
-
-### Development notes
 
 #### Heroku deployment
 Please follow instructions from - https://python-responder.org/en/latest/deployment.html
