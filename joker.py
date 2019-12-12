@@ -1,4 +1,4 @@
-"""A module provides entrypoint API to run `py-joker` task master application."""
+"""A module provides entrypoint API to run `py-joker` master application."""
 from lib.setup import ServerConfig
 from lib.services import Service, PyJoker
 
