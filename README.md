@@ -8,12 +8,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/vyahello/pyjokes-stand/badge.svg?branch=master)](https://coveralls.io/github/vyahello/pyjokes-stand?branch=master)
 
 **Tools**
+> - `pyjokes`
 > - `python 3.7`
 > - `html/css/js`
 > - `pytest`
 > - `shell`
 > - `travis CI`
 > - `heroku`
+
 
 ## Table of contents
 - [Usage](#usage)
@@ -61,11 +63,11 @@ heroku logs --tail
 - Open an application via browser: https://pyjokes-stand.herokuapp.com
 
 #### Meta
-Author – Volodymyr Yahello vyahello@gmail.com
+Heroku automation master – Volodymyr Yahello vyahello@gmail.com
 
 Distributed under the `BSD` license. See [LICENSE](LICENSE.md) for more information.
 
-You can reach out me at:
+You can reach out me at (for heroku automations inquiries):
 * [https://github.com/vyahello](https://github.com/vyahello)
 * [https://www.linkedin.com/in/volodymyr-yahello-821746127](https://www.linkedin.com/in/volodymyr-yahello-821746127)
 
