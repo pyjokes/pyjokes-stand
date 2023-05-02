@@ -1,3 +1,3 @@
-flask==1.1.1
+flask==2.2.5
 pyjokes==0.6.0
 gunicorn==19.9.0
